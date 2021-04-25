@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="icon" href="./365ep.jpg" type="image/png" sizes="20x20">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./jquery-3.5.1.min.js"></script>
+    <script src="/popper.js"></script>
+    <script src="./bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="/index.html">
+                <img src="./365ep.jpg" alt="365 Logo" class="logo" width="70px"> 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: rgb(2, 2, 2);" href="/Movies.html">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: rgb(2, 2, 2);" href="#">TV Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: rgb(2, 2, 2);" href="#">Audio</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="mediaCarousel" class="carousel slide" data-ride="carousel">
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./abc1.jpg" alt="Los Angeles">
+          </div>
+          <div class="carousel-item">
+            <img src="./abc2.jpg" alt="Chicago">
+          </div>
+          <div class="carousel-item">
+            <img src="./abc3.jpg" alt="New York">
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#mediaCarousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#mediaCarousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+      <div class="search-group">
+      <div class="dropdown">
+        <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+         Genre
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#all">All</a>
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Drama</a>
+          <a class="dropdown-item" href="#">Sci-fi</a>
+        </div>
+      </div>
+
+      <div class="input-group md-form form-sm form-2 pl-0">
+        <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Search your favourite movie title" aria-label="Search">
+        <div class="input-group-append">
+          <span class="input-group-text amber lighten-3" id="basic-text1"><img aria-hidden="true" class="search" src="https://img.icons8.com/search"></span>
+        </div>
+      </div>
+    </div>
+
+      <div class="container" id="all">
+        <div class="row">
+            <div class="col-sm-3 col-md-2">
+              <img src="./nano1.jpg" alt="test" class="img-responsive">
+              <div class="carousel-caption">
+                <b>Haider</b><br>Indian crime tragedy film.
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-2">
+              <img src="./nano2.jpg" alt="test" class="img-responsive">
+              <div class="carousel-caption">
+                <b class="movie-title">Dream 2</b><br>Thriller, Mystery &amp; Comedy
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-2">
+              <img src="./nano3.jpg" alt="test" class="img-responsive">
+              <div class="carousel-caption">
+                <b class="movie-title">Batman</b><br>A Marvel Comics superhero team.
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-2">
+              <img src="./nano4.jpg" alt="test" class="img-responsive">
+              <div class="carousel-caption">
+                <b class="movie-title">Monster Manav</b><br>Japanese manga series written by Tsugumi.
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-2">
+              <img src="./nano5.jpg" alt="test" class="img-responsive">
+              <div class="carousel-caption">
+                <b class="movie-title">Kill Bill</b><br>2003 American martial arts film.
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-2">
+              <img src="./nano6.jpg" width="50%" alt="test" class="img-responsive">
+              <div class="carousel-caption">
+                <b class="movie-title">Rowdy</b><br>Indian action drama film.
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-2">
+                <img src="./nano7.jpg" alt="test" class="img-responsive">
+                <div class="carousel-caption">
+                    <b class="movie-title">Agnipaath</b><br>Indian crime tragedy film.
+                </div>
+              </div>
+              <div class="col-sm-3 col-md-2">
+                <img src="./nano8.jpg" alt="test" class="img-responsive">
+                <div class="carousel-caption">
+                    <b class="movie-title">Ankhein</b><br>Thriller, Mystery &amp; Comedy .
+                </div>
+              </div>
+              <div class="col-sm-3 col-md-2">
+                <img src="./nano9.jpg" alt="test" class="img-responsive">
+                <div class="carousel-caption">
+                    <b class="movie-title">Guide</b><br>A Marvel Comics superhero team.
+                </div>
+              </div>
+              <div class="col-sm-3 col-md-2">
+                <img src="./nano10.jpg" alt="test" class="img-responsive">
+                <div class="carousel-caption">
+                    <b class="movie-title">Deewar</b><br>2016 ‧ Fantasy/Science Fiction.
+                </div>
+              </div>
+              <div class="col-sm-3 col-md-2">
+                <img src="./nano11.jpg" alt="test" class="img-responsive">
+                <div class="carousel-caption">
+                    <b class="movie-title">Sholay</b><br>A Marvel Comics superhero team.
+                </div>
+              </div>
+              <div class="col-sm-3 col-md-2">
+                <img src="./nano12.jpg" width="50%" alt="test" class="img-responsive">
+                <div class="carousel-caption">
+                    <b class="movie-title">K3G</b><br>A Marvel Comics superhero team.
+                </div>
+              </div>
+              <div class="col-sm-3 col-md-2">
+                  <img src="./nano13.jpg" alt="test" class="img-responsive">
+                  <div class="carousel-caption">
+                    <b class="movie-title">Shaurya</b><br>A Marvel Comics superhero team.
+                  </div>
+                </div>
+                <div class="col-sm-3 col-md-2">
+                  <img src="./nano14.jpg" alt="test" class="img-responsive">
+                  <div class="carousel-caption">
+                    <b class="movie-title">Cheeni Kam</b><br>A Marvel Comics superhero team.
+                  </div>
+                </div>
+                <div class="col-sm-3 col-md-2">
+                  <img src="./nano15.jpg" alt="test" class="img-responsive">
+                  <div class="carousel-caption">
+                    <b class="movie-title">Ishq Vishq</b><br>A Marvel Comics superhero team.
+                  </div>
+                </div>
+                <div class="col-sm-3 col-md-2">
+                  <img src="./nano16.jpg" alt="test" class="img-responsive">
+                  <div class="carousel-caption">
+                    <b class="movie-title">Padmaavat</b><br>A Marvel Comics superhero team.
+                  </div>
+                </div>
+                <div class="col-sm-3 col-md-2">
+                  <img src="./nano17.jpg" alt="test" class="img-responsive">
+                  <div class="carousel-caption">
+                    <b class="movie-title">Kai Po Che</b><br>A Marvel Comics superhero team.
+                  </div>
+                </div>
+                <div class="col-sm-3 col-md-2">
+                  <img src="./nano18.jpg" width="50%" alt="test" class="img-responsive">
+                  <div class="carousel-caption">
+                    <b class="movie-title">Raabta</b><br>A Marvel Comics superhero team.
+                  </div>
+                </div>
+                <div class="col-sm-3 col-md-2">
+                    <img src="./nano19.jpg" alt="test" class="img-responsive">
+                    <div class="carousel-caption">
+                        <b class="movie-title">Interstellar</b><br>A Marvel Comics superhero team.
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-2">
+                    <img src="./nano20.jpg" alt="test" class="img-responsive">
+                    <div class="carousel-caption">
+                        <b class="movie-title">Star Wars</b><br>A Marvel Comics superhero team.
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-2">
+                    <img src="./nano21.jpg" alt="test" class="img-responsive">
+                    <div class="carousel-caption">
+                        <b class="movie-title">Thor</b><br>A Marvel Comics superhero team.
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-2">
+                    <img src="./nano22.jpg" alt="test" class="img-responsive">
+                    <div class="carousel-caption">
+                        <b class="movie-title">Captain America</b><br>A Marvel Comics superhero team.
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-2">
+                    <img src="./nano23.jpg" alt="test" class="img-responsive">
+                    <div class="carousel-caption">
+                        <b class="movie-title">X-Men</b><br>A Marvel Comics superhero team.
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-2">
+                    <img src="./nano24.jpg" width="50%" alt="test" class="img-responsive">
+                    <div class="carousel-caption">
+                        <b class="movie-title">Black Widow</b><br>A Marvel Comics superhero team.
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-2">
+                      <img src="./nano25.jpg" alt="test" class="img-responsive">
+                      <div class="carousel-caption">
+                        <b class="movie-title">Iron-Man</b><br>A Marvel Comics superhero team.
+                      </div>
+                    </div>
+                    <div class="col-sm-3 col-md-2">
+                      <img src="./nano26.jpg" alt="test" class="img-responsive">
+                      <div class="carousel-caption">
+                        <b class="movie-title">Hulk</b><br>A Marvel Comics superhero team.
+                      </div>
+                    </div>
+                    <div class="col-sm-3 col-md-2">
+                      <img src="./nano27.jpg" alt="test" class="img-responsive">
+                      <div class="carousel-caption">
+                        <b class="movie-title">Captain Marvel</b><br>A Marvel Comics superhero team.
+                      </div>
+                    </div>
+                    <div class="col-sm-3 col-md-2">
+                      <img src="./nano28.jpg" alt="test" class="img-responsive">
+                      <div class="carousel-caption">
+                        <b class="movie-title">Wonder Woman</b><br>A Marvel Comics superhero team.
+                      </div>
+                    </div>
+                    <div class="col-sm-3 col-md-2">
+                      <img src="./nano29.jpg" alt="test" class="img-responsive">
+                      <div class="carousel-caption">
+                        <b class="movie-title">Batwoman</b><br>A Marvel Comics superhero team.
+                      </div>
+                    </div>
+                    <div class="col-sm-3 col-md-2">
+                      <img src="./nano30.jpg" width="50%" alt="test" class="img-responsive">
+                      <div class="carousel-caption">
+                        <b class="movie-title">Batman</b><br>A Marvel Comics superhero team.
+                      </div>
+                    </div>
+                    <div class="col-sm-3 col-md-2">
+                        <img src="./nano31.jpg" alt="test" class="img-responsive">
+                        <div class="carousel-caption">
+                            <b class="movie-title">Superman</b><br>A Marvel Comics superhero team.
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-md-2">
+                        <img src="./nano32.jpg" alt="test" class="img-responsive">
+                        <div class="carousel-caption">
+                            <b class="movie-title">Superwoman</b><br>A Marvel Comics superhero team.
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-md-2">
+                        <img src="./nano33.jpg" alt="test" class="img-responsive">
+                        <div class="carousel-caption">
+                            <b class="movie-title">Doctor Strange</b><br>A Marvel Comics superhero team.
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-md-2">
+                        <img src="./nano34.jpg" alt="test" class="img-responsive">
+                        <div class="carousel-caption">
+                            <b class="movie-title">Mars</b><br>A Marvel Comics superhero team.
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-md-2">
+                        <img src="./nano35.jpg" alt="test" class="img-responsive">
+                        <div class="carousel-caption">
+                            <b class="movie-title">Gravity</b><br>A Marvel Comics superhero team.
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-md-2">
+                        <img src="./nano36.jpg" width="50%" alt="test" class="img-responsive">
+                        <div class="carousel-caption">
+                            <b class="movie-title">Martian</b><br>A Marvel Comics superhero team.
+                        </div>
+                      </div>
+        </div>
+      </div>
+
+
+      <footer>
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <!-- Brand/logo -->
+          <a class="navbar-brand" href="#">
+              <img src="./365ep.jpg" alt="365 Logo" class="logo" width="70px"> 
+          </a>
+          <div class="copyright">Powered by 365 Entertainment Portal 2019. All Rights Reserved.</div>
+        </nav>
+      </footer>
+
+</body>

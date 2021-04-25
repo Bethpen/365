@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>365 Entertainment Portal</title>
+    <link rel="icon" href="./365ep.jpg" type="image/png" sizes="20x20" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./font-awesome.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./jquery-3.5.1.min.js"></script>
+    <script src="../node_modules/@popperjs/core/dist/umd/popper.js"></script>
+    <script src="./bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-light">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/365ep.jpg"
+            alt="365 Logo"
+            class="logo"
+            width="70px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                style="color: rgb(2, 2, 2)"
+                href="./Movies.html"
+                >Movies</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: rgb(2, 2, 2)" href="#"
+                >TV Series</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: rgb(2, 2, 2)" href="#">Audio</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div id="mediaCarousel" class="carousel slide" data-ride="carousel">
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/abc1.jpg" alt="Los Angeles" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/abc2.jpg" alt="Chicago" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/abc3.jpg" alt="New York" />
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#mediaCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#mediaCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    <!-- Each media section -->
+    <div class="container-fluid">
+      <h3>Popular in Action</h3>
+      <!-- <div class="container"> -->
+      <div class="row">
+        <div class="col-sm-3 col-md-2">
+          <img
+            src="images/oop1.jpg"
+            alt="Last City"
+            class="img-fluid img-responsive"
+          />
+          <div class="carousel-caption">
+            <b>Last City</b><br />Thriller, Mystery &amp; Comedy.
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-2">
+          <img src="images/oop2.jpg" alt="Tomb Raider" class="img-responsive" />
+          <div class="carousel-caption">
+            <b>Tomb Raider</b><br />Indian crime tragedy film.
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-2">
+          <img
+            src="images/oop3.jpg"
+            alt="Japanese Marvel"
+            class="img-responsive"
+          />
+          <div class="carousel-caption">
+            <b>Japanese Marvel</b><br />A Marvel Comics superhero team.
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-2">
+          <img
+            src="images/oop4.jpg"
+            alt="Bohemian"
+            class="img-fluid img-responsive"
+          />
+          <div class="carousel-caption">
+            <b>Bohemian</b><br />Japanese manga series <br />
+            written by Tsugumi.
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-2">
+          <img
+            src="images/oop5.jpg"
+            alt="Justice League"
+            class="img-responsive"
+          />
+          <div class="carousel-caption">
+            <b>Justice League</b><br />2003 American martial arts <br />film.
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-2">
+          <img
+            src="images/oop6.jpg"
+            width="50%"
+            alt="Borgia"
+            class="img-responsive"
+          />
+          <div class="carousel-caption">
+            <b>Borgia</b><br />Indian action drama film.
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <div class="container-fluid">
+      <h3>Popular in Drama</h3>
+      <!-- <div class="container"> -->
+      <div class="row">
+        <div class="col-sm-3 col-md-2">
+          <img src="images/oop7.jpg" alt="test" class="img-responsive" />
+          <div class="carousel-caption">
+            <b>The Nun</b><br />2016 ‧ Fantasy/Science <br />
+            Fiction.
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-2">
+          <img src="images/oop8.jpg" alt="test" class="img-responsive" />
+          <div class="carousel-caption">
+            <b>Avengers</b><br />Indian crime tragedy film.
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-2">
+          <img src="images/oop9.jpg" alt="test" class="img-responsive" />
+          <div class="carousel-caption">
+            <b>Aquaman</b><br />Thriller, Mystery &amp; Comedy.
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-2">
+          <img src="images/oop10.jpg" alt="test" class="img-responsive" />
+          <div class="carousel-caption">
+            <b>TOmb Raider</b><br />A Marvel Comics superhero team.
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-2">
+          <img src="images/oop11.jpg" alt="test" class="img-responsive" />
+          <div class="carousel-caption">
+            <b>FIGHTCLUB</b><br />American martial arts film.
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-2">
+          <img
+            src="images/oop12.jpg"
+            width="50%"
+            alt="test"
+            class="img-responsive"
+          />
+          <div class="carousel-caption">
+            <b>Myaoekai</b><br />Indian crime tragedy film.
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <div class="container-fluid">
+      <h3>Popular in Sci-Fi</h3>
+
+      <!-- <div class="container"> -->
+      <div class="row">
+        <div class="col-sm-3 col-md-2">
+          <img src="images/oop13.jpg" alt="test" class="img-responsive" />
+          <div class="carousel-caption">
+            <b>Red Wars</b><br />Chinese crime thriller.
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-2">
+          <img src="images/oop14.jpg" alt="test" class="img-responsive" />
+          <div class="carousel-caption">
+            <b>Florida</b><br />Documentary eastern eravel.
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-2">
+          <img src="images/oop15.jpg" alt="test" class="img-responsive" />
+          <div class="carousel-caption">
+            <b>The Thing</b><br />Thriller Romance Drama film.
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-2">
+          <img src="images/oop16.jpg" alt="test" class="img-responsive" />
+          <div class="carousel-caption">
+            <b>First Five</b><br />South Korean Entertainment.
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-2">
+          <img src="images/oop17.jpg" alt="test" class="img-responsive" />
+          <div class="carousel-caption">
+            <b>Shrooms</b><br />A Marvel Comics superhero team.
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-2">
+          <img
+            src="images/oop18.jpg"
+            width="50%"
+            alt="test"
+            class="img-responsive"
+          />
+          <div class="carousel-caption">
+            <b>Superman</b><br />Indian comedy &amp; Romance.0
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <nav class="navbar navbar-expand-sm navbar-light">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="/images/365ep.jpg"
+            alt="365 Logo"
+            class="logo"
+            width="70px"
+          />
+        </a>
+        <div class="copyright">
+          Powered by 365 Entertainment Portal 2019. All Rights Reserved.
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
